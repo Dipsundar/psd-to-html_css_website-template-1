@@ -1,0 +1,102 @@
+/* fonts  */
+@font-face {
+    font-family: codaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+
+
+/* contact container  */
+#contact-container {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.contact-heading {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 4px;
+}
+
+
+
+/* contact image  */
+#left-box {
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#left-box img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* contact form  */
+#right-box {
+    background: url(../images/contact/background.jpg);
+    border-radius: 10px;
+    width: 50%;
+    float: right;
+    margin: 0;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    /* border: 2px solid blue; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.form-group input {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-group label {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-items {
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+
+#message-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 20px;
+    /* text-align: center; */
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    border-width: 0px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: codaCaption-ExtraBold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: rgb(62, 60, 60);
+    color: white;
+}

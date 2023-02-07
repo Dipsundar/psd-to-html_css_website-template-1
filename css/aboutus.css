@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.aboutus {
+    background: url(../images/about/back.jpg);
+}
+
+.aboutus h3 {
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.aboutus p {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.about-image img {
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
